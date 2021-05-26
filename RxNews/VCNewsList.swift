@@ -11,5 +11,6 @@ import UIKit
 class VCNewsList: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
