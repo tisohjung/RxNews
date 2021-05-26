@@ -14,6 +14,7 @@
 		9FFC027D265E9F1000EA617C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC027C265E9F1000EA617C /* Assets.xcassets */; };
 		9FFC0280265E9F1000EA617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC027E265E9F1000EA617C /* LaunchScreen.storyboard */; };
 		9FFC0288265EA04700EA617C /* VCNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0287265EA04700EA617C /* VCNewsList.swift */; };
+		9FFC028A265EA14800EA617C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0289265EA14800EA617C /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9FFC027F265E9F1000EA617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFC0281265E9F1000EA617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFC0287265EA04700EA617C /* VCNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNewsList.swift; sourceTree = "<group>"; };
+		9FFC0289265EA14800EA617C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CEDA419032D9D8B82066AAB9 /* Pods_RxNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				9FFC027E265E9F1000EA617C /* LaunchScreen.storyboard */,
 				9FFC0281265E9F1000EA617C /* Info.plist */,
 				9FFC0287265EA04700EA617C /* VCNewsList.swift */,
+				9FFC0289265EA14800EA617C /* UIColor+Extension.swift */,
 			);
 			path = RxNews;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				9FFC0274265E9F0E00EA617C /* AppDelegate.swift in Sources */,
 				9FFC0288265EA04700EA617C /* VCNewsList.swift in Sources */,
 				9FFC0276265E9F0E00EA617C /* SceneDelegate.swift in Sources */,
+				9FFC028A265EA14800EA617C /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
