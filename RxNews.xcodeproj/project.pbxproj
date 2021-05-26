@@ -73,16 +73,40 @@
 		9FFC0272265E9F0E00EA617C /* RxNews */ = {
 			isa = PBXGroup;
 			children = (
+				9FFC028C265EA4E100EA617C /* Global */,
+				9FFC028B265EA4D800EA617C /* ViewController */,
 				9FFC0273265E9F0E00EA617C /* AppDelegate.swift */,
 				9FFC0275265E9F0E00EA617C /* SceneDelegate.swift */,
 				9FFC0279265E9F0E00EA617C /* Main.storyboard */,
 				9FFC027C265E9F1000EA617C /* Assets.xcassets */,
 				9FFC027E265E9F1000EA617C /* LaunchScreen.storyboard */,
 				9FFC0281265E9F1000EA617C /* Info.plist */,
-				9FFC0287265EA04700EA617C /* VCNewsList.swift */,
-				9FFC0289265EA14800EA617C /* UIColor+Extension.swift */,
 			);
 			path = RxNews;
+			sourceTree = "<group>";
+		};
+		9FFC028B265EA4D800EA617C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FFC0287265EA04700EA617C /* VCNewsList.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9FFC028C265EA4E100EA617C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9FFC028D265EA4E700EA617C /* Extensions */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		9FFC028D265EA4E700EA617C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FFC0289265EA14800EA617C /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		AF708B2FE19F05D3379E4072 /* Pods */ = {

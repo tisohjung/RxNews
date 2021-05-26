@@ -20,7 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         appearance.titleTextAttributes = [.foregroundColor : UIColor.white]
         appearance.largeTitleTextAttributes = [.foregroundColor : UIColor.white]
         UINavigationBar.appearance().standardAppearance = appearance
-        UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
         UINavigationBar.appearance().compactAppearance = appearance
 
