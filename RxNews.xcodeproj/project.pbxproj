@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		426E7D9A07AB0598711D708E /* Pods_RxNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA419032D9D8B82066AAB9 /* Pods_RxNews.framework */; };
 		9FFC0274265E9F0E00EA617C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0273265E9F0E00EA617C /* AppDelegate.swift */; };
 		9FFC0276265E9F0E00EA617C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0275265E9F0E00EA617C /* SceneDelegate.swift */; };
-		9FFC0278265E9F0E00EA617C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0277265E9F0E00EA617C /* ViewController.swift */; };
 		9FFC027B265E9F0E00EA617C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC0279265E9F0E00EA617C /* Main.storyboard */; };
 		9FFC027D265E9F1000EA617C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC027C265E9F1000EA617C /* Assets.xcassets */; };
 		9FFC0280265E9F1000EA617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC027E265E9F1000EA617C /* LaunchScreen.storyboard */; };
+		9FFC0288265EA04700EA617C /* VCNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC0287265EA04700EA617C /* VCNewsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +22,11 @@
 		9FFC0270265E9F0E00EA617C /* RxNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFC0273265E9F0E00EA617C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFC0275265E9F0E00EA617C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9FFC0277265E9F0E00EA617C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FFC027A265E9F0E00EA617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FFC027C265E9F1000EA617C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFC027F265E9F1000EA617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFC0281265E9F1000EA617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFC0287265EA04700EA617C /* VCNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNewsList.swift; sourceTree = "<group>"; };
 		CEDA419032D9D8B82066AAB9 /* Pods_RxNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,11 +73,11 @@
 			children = (
 				9FFC0273265E9F0E00EA617C /* AppDelegate.swift */,
 				9FFC0275265E9F0E00EA617C /* SceneDelegate.swift */,
-				9FFC0277265E9F0E00EA617C /* ViewController.swift */,
 				9FFC0279265E9F0E00EA617C /* Main.storyboard */,
 				9FFC027C265E9F1000EA617C /* Assets.xcassets */,
 				9FFC027E265E9F1000EA617C /* LaunchScreen.storyboard */,
 				9FFC0281265E9F1000EA617C /* Info.plist */,
+				9FFC0287265EA04700EA617C /* VCNewsList.swift */,
 			);
 			path = RxNews;
 			sourceTree = "<group>";
@@ -88,7 +88,6 @@
 				4BE6B4DC859EE774485A36DB /* Pods-RxNews.debug.xcconfig */,
 				4A988D5AAE847F20B2BC16CB /* Pods-RxNews.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,8 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFC0278265E9F0E00EA617C /* ViewController.swift in Sources */,
 				9FFC0274265E9F0E00EA617C /* AppDelegate.swift in Sources */,
+				9FFC0288265EA04700EA617C /* VCNewsList.swift in Sources */,
 				9FFC0276265E9F0E00EA617C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
