@@ -21,17 +21,12 @@ class VCNewsList: UITableViewController {
     }
 
     func fetchNews() {
-        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2021-04-26&sortBy=publishedAt&apiKey=")!
 
-        Observable.just(url)
-            .flatMap({ url -> Observable<Data> in
-                let request = URLRequest(url: url)
-                return URLSession.shared.rx.data(request: request)
-            }).map({ data -> [Article]? in
-                return try? JSONDecoder().decode(ArticleList.self, from: data).articles
-            }).subscribe(onNext: { [weak self] articles in
-                if let articles = articles {
-                    self?.articles = articles
+        let resource = Resource<ArticleList>(url: url)
+        URLRequest.load(resource: resource)
+            .subscribe(onNext: { [weak self] result in
+                if let result = result {
+                    self?.articles = result.articles
                     DispatchQueue.main.async {
                         self?.tableView.reloadData()
                     }
