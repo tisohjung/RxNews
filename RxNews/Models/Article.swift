@@ -15,3 +15,9 @@ struct Article: Decodable {
 struct ArticleList: Decodable {
     let articles: [Article]
 }
+
+extension ArticleList {
+    static var all: Resource<ArticleList> = {
+        return Resource(url: url)
+    }()
+}

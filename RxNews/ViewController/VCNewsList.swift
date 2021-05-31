@@ -21,9 +21,7 @@ class VCNewsList: UITableViewController {
     }
 
     func fetchNews() {
-
-        let resource = Resource<ArticleList>(url: url)
-        URLRequest.load(resource: resource)
+        URLRequest.load(resource: ArticleList.all)
             .subscribe(onNext: { [weak self] result in
                 if let result = result {
                     self?.articles = result.articles
